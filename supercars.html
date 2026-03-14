@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ayvenza Motors | Supercars Collection</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="sales.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <nav class="navbar">
+                <a href="#" class="logo">Ayvenza <span>Motors</span></a>
+                <ul class="nav-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="supercars.html" class="active">Supercars</a></li>
+                    <li><a href="suvs.html">SUVs</a></li>
+                    <li><a href="e-cars.html">Electric</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Page Header -->
+    <section class="page-header">
+        <div class="container">
+            <h1>Supercars Collection</h1>
+            <p>Experience the pinnacle of automotive engineering with our exclusive selection of the world's most desirable supercars.</p>
+        </div>
+    </section>
+
+    <!-- Supercars Section -->
+    <section class="category-section">
+        <div class="container">
+            <h2 class="category-title">Curated Selection</h2>
+            <div class="car-showcase">
+                <!-- Car 1 -->
+                <div class="car-item">
+                    <div class="car-360-container">
+                        <img src="lamborgini.png" alt="Lamborghini Huracán EVO" class="car-360-view" id="huracan-view">
+                        <div class="viewer-controls">
+                            <button class="viewer-btn rotate-left"><i class="fas fa-undo"></i></button>
+                            <button class="viewer-btn rotate-right"><i class="fas fa-redo"></i></button>
+                        </div>
+                    </div>
+                    <div class="car-details">
+                        <h3 class="car-name">Lamborghini Huracán EVO</h3>
+                        <div class="car-price">$261,274</div>
+                        <div class="sales-progress">
+                            <div class="progress-text">
+                                <span>Availability: 3/5</span>
+                                <span>60% sold</span>
+                            </div>
+                            <div class="progress-bar">
+                                <div class="progress-fill" style="width: 60%"></div>
+                            </div>
+                        </div>
+                        <div class="car-stats">
+                            <div class="stat-item">
+                                <div class="stat-icon"><i class="fas fa-tachometer-alt"></i></div>
+                                <div>
+                                    <div class="stat-value">202 MPH</div>
+                                    <div class="stat-label">Top Speed</div>
+                                </div>
+                            </div>
+                            <div class="stat-item">
+                                <div class="stat-icon"><i class="fas fa-bolt"></i></div>
+                                <div>
+                                    <div class="stat-value">631 HP</div>
+                                    <div class="stat-label">Power</div>
+                                </div>
+                            </div>
+                            <div class="stat-item">
+                                <div class="stat-icon"><i class="fas fa-rocket"></i></div>
+                                <div>
+                                    <div class="stat-value">2.9s</div>
+                                    <div class="stat-label">0-60 MPH</div>
+                                </div>
+                            </div>
+                            <div class="stat-item">
+                                <div class="stat-icon"><i class="fas fa-gas-pump"></i></div>
+                                <div>
+                                    <div class="stat-value">18 MPG</div>
+                                    <div class="stat-label">Combined</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="car-actions">
+                            <button type="button" class="btn btn-outline" data-action="demo" data-car="Lamborghini Huracán EVO" data-price="$261,274">Book Demo</button>
+                            <button type="button" class="btn btn-primary" data-action="purchase" data-car="Lamborghini Huracán EVO" data-price="$261,274">Purchase</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Car 2 -->
+                <div class="car-item">
+                    <div class="car-360-container">
+                        <img src="porsche.avif" alt="Porsche 911 Turbo S" class="car-360-view" id="porsche-view">
+                        <div class="viewer-controls">
+                            <button class="viewer-btn rotate-left"><i class="fas fa-undo"></i></button>
+                            <button class="viewer-btn rotate-right"><i class="fas fa-redo"></i></button>
+                        </div>
+                    </div>
+                    <div class="car-details">
+                        <h3 class="car-name">Porsche 911 Turbo S</h3>
+                        <div class="car-price">$203,500</div>
+                        <div class="sales-progress">
+                            <div class="progress-text">
+                                <span>Availability: 2/5</span>
+                                <span>40% sold</span>
+                            </div>
+                            <div class="progress-bar">
+                                <div class="progress-fill" style="width: 40%"></div>
+                            </div>
+                        </div>
+                        <div class="car-stats">
+                            <div class="stat-item">
+                                <div class="stat-icon"><i class="fas fa-tachometer-alt"></i></div>
+                                <div>
+                                    <div class="stat-value">205 MPH</div>
+                                    <div class="stat-label">Top Speed</div>
+                                </div>
+                            </div>
+                            <div class="stat-item">
+                                <div class="stat-icon"><i class="fas fa-bolt"></i></div>
+                                <div>
+                                    <div class="stat-value">640 HP</div>
+                                    <div class="stat-label">Power</div>
+                                </div>
+                            </div>
+                            <div class="stat-item">
+                                <div class="stat-icon"><i class="fas fa-rocket"></i></div>
+                                <div>
+                                    <div class="stat-value">2.6s</div>
+                                    <div class="stat-label">0-60 MPH</div>
+                                </div>
+                            </div>
+                            <div class="stat-item">
+                                <div class="stat-icon"><i class="fas fa-gas-pump"></i></div>
+                                <div>
+                                    <div class="stat-value">20 MPG</div>
+                                    <div class="stat-label">Combined</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="car-actions">
+                            <button type="button" class="btn btn-outline" data-action="demo" data-car="Porsche 911 Turbo S" data-price="$203,500">Book Demo</button>
+                            <button type="button" class="btn btn-primary" data-action="purchase" data-car="Porsche 911 Turbo S" data-price="$203,500">Purchase</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Car 3 -->
+                <div class="car-item">
+                    <div class="car-360-container">
+                        <img src="ferari.jpg" alt="Ferrari 488 Pista" class="car-360-view" id="ferrari-view">
+                        <div class="viewer-controls">
+                            <button class="viewer-btn rotate-left"><i class="fas fa-undo"></i></button>
+                            <button class="viewer-btn rotate-right"><i class="fas fa-redo"></i></button>
+                        </div>
+                    </div>
+                    <div class="car-details">
+                        <h3 class="car-name">Ferrari 488 Pista</h3>
+                        <div class="car-price">$350,000</div>
+                        <div class="sales-progress">
+                            <div class="progress-text">
+                                <span>Availability: 1/5</span>
+                                <span>20% sold</span>
+                            </div>
+                            <div class="progress-bar">
+                                <div class="progress-fill" style="width: 20%"></div>
+                            </div>
+                        </div>
+                        <div class="car-stats">
+                            <div class="stat-item">
+                                <div class="stat-icon"><i class="fas fa-tachometer-alt"></i></div>
+                                <div>
+                                    <div class="stat-value">211 MPH</div>
+                                    <div class="stat-label">Top Speed</div>
+                                </div>
+                            </div>
+                            <div class="stat-item">
+                                <div class="stat-icon"><i class="fas fa-bolt"></i></div>
+                                <div>
+                                    <div class="stat-value">710 HP</div>
+                                    <div class="stat-label">Power</div>
+                                </div>
+                            </div>
+                            <div class="stat-item">
+                                <div class="stat-icon"><i class="fas fa-rocket"></i></div>
+                                <div>
+                                    <div class="stat-value">2.8s</div>
+                                    <div class="stat-label">0-60 MPH</div>
+                                </div>
+                            </div>
+                            <div class="stat-item">
+                                <div class="stat-icon"><i class="fas fa-gas-pump"></i></div>
+                                <div>
+                                    <div class="stat-value">15 MPG</div>
+                                    <div class="stat-label">Combined</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="car-actions">
+                            <button type="button" class="btn btn-outline" data-action="demo" data-car="Ferrari 488 Pista" data-price="$350,000">Book Demo</button>
+                            <button type="button" class="btn btn-primary" data-action="purchase" data-car="Ferrari 488 Pista" data-price="$350,000">Purchase</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Car 4 -->
+                <div class="car-item">
+                    <div class="car-360-container">
+                        <img src="mclaren.avif" alt="McLaren 720S" class="car-360-view" id="mclaren-view">
+                        <div class="viewer-controls">
+                            <button class="viewer-btn rotate-left"><i class="fas fa-undo"></i></button>
+                            <button class="viewer-btn rotate-right"><i class="fas fa-redo"></i></button>
+                        </div>
+                    </div>
+                    <div class="car-details">
+                        <h3 class="car-name">McLaren 720S</h3>
+                        <div class="car-price">$299,000</div>
+                        <div class="sales-progress">
+                            <div class="progress-text">
+                                <span>Availability: 4/5</span>
+                                <span>80% sold</span>
+                            </div>
+                            <div class="progress-bar">
+                                <div class="progress-fill" style="width: 80%"></div>
+                            </div>
+                        </div>
+                        <div class="car-stats">
+                            <div class="stat-item">
+                                <div class="stat-icon"><i class="fas fa-tachometer-alt"></i></div>
+                                <div>
+                                    <div class="stat-value">212 MPH</div>
+                                    <div class="stat-label">Top Speed</div>
+                                </div>
+                            </div>
+                            <div class="stat-item">
+                                <div class="stat-icon"><i class="fas fa-bolt"></i></div>
+                                <div>
+                                    <div class="stat-value">710 HP</div>
+                                    <div class="stat-label">Power</div>
+                                </div>
+                            </div>
+                            <div class="stat-item">
+                                <div class="stat-icon"><i class="fas fa-rocket"></i></div>
+                                <div>
+                                    <div class="stat-value">2.7s</div>
+                                    <div class="stat-label">0-60 MPH</div>
+                                </div>
+                            </div>
+                            <div class="stat-item">
+                                <div class="stat-icon"><i class="fas fa-gas-pump"></i></div>
+                                <div>
+                                    <div class="stat-value">19 MPG</div>
+                                    <div class="stat-label">Combined</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="car-actions">
+                            <button type="button" class="btn btn-outline" data-action="demo" data-car="McLaren 720S" data-price="$299,000">Book Demo</button>
+                            <button type="button" class="btn btn-primary" data-action="purchase" data-car="McLaren 720S" data-price="$299,000">Purchase</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Car 5 -->
+                <div class="car-item">
+                    <div class="car-360-container">
+                        <img src="martin.jpg" alt="Aston Martin DBS Superleggera" class="car-360-view" id="aston-view">
+                        <div class="viewer-controls">
+                            <button class="viewer-btn rotate-left"><i class="fas fa-undo"></i></button>
+                            <button class="viewer-btn rotate-right"><i class="fas fa-redo"></i></button>
+                        </div>
+                    </div>
+                    <div class="car-details">
+                        <h3 class="car-name">Aston Martin DBS</h3>
+                        <div class="car-price">$308,000</div>
+                        <div class="sales-progress">
+                            <div class="progress-text">
+                                <span>Availability: 2/5</span>
+                                <span>40% sold</span>
+                            </div>
+                            <div class="progress-bar">
+                                <div class="progress-fill" style="width: 40%"></div>
+                            </div>
+                        </div>
+                        <div class="car-stats">
+                            <div class="stat-item">
+                                <div class="stat-icon"><i class="fas fa-tachometer-alt"></i></div>
+                                <div>
+                                    <div class="stat-value">211 MPH</div>
+                                    <div class="stat-label">Top Speed</div>
+                                </div>
+                            </div>
+                            <div class="stat-item">
+                                <div class="stat-icon"><i class="fas fa-bolt"></i></div>
+                                <div>
+                                    <div class="stat-value">715 HP</div>
+                                    <div class="stat-label">Power</div>
+                                </div>
+                            </div>
+                            <div class="stat-item">
+                                <div class="stat-icon"><i class="fas fa-rocket"></i></div>
+                                <div>
+                                    <div class="stat-value">3.2s</div>
+                                    <div class="stat-label">0-60 MPH</div>
+                                </div>
+                            </div>
+                            <div class="stat-item">
+                                <div class="stat-icon"><i class="fas fa-gas-pump"></i></div>
+                                <div>
+                                    <div class="stat-value">17 MPG</div>
+                                    <div class="stat-label">Combined</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="car-actions">
+                            <button type="button" class="btn btn-outline" data-action="demo" data-car="Aston Martin DBS" data-price="$308,000">Book Demo</button>
+                            <button type="button" class="btn btn-primary" data-action="purchase" data-car="Aston Martin DBS" data-price="$308,000">Purchase</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer id="contact">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-column">
+                    <h3>Ayvenza Motors</h3>
+                    <p>Premium automotive experiences with the world's most exclusive vehicles.</p>
+                    <div class="social-links">
+                        <a href="#" class="social-link"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+                <div class="footer-column">
+                    <h3>Quick Links</h3>
+                    <ul class="footer-links">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="supercars.html" class="active">Supercars</a></li>
+                        <li><a href="suvs.html">Luxury SUVs</a></li>
+                        <li><a href="electric.html">Electric</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h3>Services</h3>
+                    <ul class="footer-links">
+                        <li><a href="#">Test Drives</a></li>
+                        <li><a href="#">Financing</a></li>
+                        <li><a href="#">Trade-In</a></li>
+                        <li><a href="#">Maintenance</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h3>Contact</h3>
+                    <ul class="footer-links">
+                        <li><i class="fas fa-map-marker-alt"></i> 123 Premium Ave, Beverly Hills, CA</li>
+                        <li><i class="fas fa-phone"></i> (310) 555-ELITE</li>
+                        <li><i class="fas fa-envelope"></i> info@ayvenzamotors.com</li>
+                        <li><i class="fas fa-clock"></i> Mon-Sat: 9AM - 7PM</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2023 Ayvenza Motors. All Rights Reserved. | <a href="#">Privacy Policy</a> | <a href="#">Terms of Service</a></p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- User Details Modal -->
+    <div class="modal-overlay" id="userDetailsModal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h3 id="modalTitle">Book Your Demo</h3>
+                <p id="modalSubtitle">We'll contact you shortly</p>
+            </div>
+            <form id="userDetailsForm">
+                <input type="hidden" id="modalCarName" name="car_name">
+                <input type="hidden" id="modalCarPrice" name="car_price">
+                <input type="hidden" id="modalAction" name="action">
+                
+                <div class="form-group">
+                    <label for="userName">Full Name</label>
+                    <input type="text" id="userName" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="userEmail">Email Address</label>
+                    <input type="email" id="userEmail" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="userPhone">Phone Number</label>
+                    <input type="tel" id="userPhone" name="phone" required>
+                </div>
+                <div class="modal-actions">
+                    <button type="button" class="btn btn-outline" id="cancelModal">Cancel</button>
+                    <button type="submit" class="btn btn-primary">Submit</button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    
+</body>
+</html>
